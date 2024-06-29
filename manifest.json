@@ -1,0 +1,14 @@
+  {
+    "manifest_version": 3,
+    "name": "Distraction Blocker",
+    "version": "1.0",
+    "description": "A simple distraction blocker extension",
+    "permissions": ["declarativeNetRequest", "declarativeNetRequestWithHostAccess", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
